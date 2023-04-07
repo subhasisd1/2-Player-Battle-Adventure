@@ -419,7 +419,7 @@ BasePlayer *SelectPlayerType(int value) {
 
     if (!cin ||
         !(playerChoice == 1 || playerChoice == 2 || playerChoice == 3)) {
-      cin.clear();
+     cin.clear();
       // cin.ignore(numeric_limits<streamsize>::max(), '\n');
 
       cout << "Please select correct player type" << endl;
